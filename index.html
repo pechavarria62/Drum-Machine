@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Drum Machine</title>
+        <link rel="stylesheet" type="text/css" href="custom.css">
+    </head>
+    <body>
+        <div class="container" id="drum-machine">
+            <h1 class="text-center" style="color: white">Drum Machine</h1>
+            <div class="card my-3">
+                <div class="card-body">
+                    <div class="text-center" id="display">comimg soon</div>
+                </div>
+            </div>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-0" onclick="play('Q')">
+                Q
+                <audio src="./clip/Audio-1.mp4" class="clip" id="Q">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-1" onclick="play('W') ">
+                W
+                <audio src="./clip/Audio-2.mp4" class="clip" id="W">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-2" onclick="play('E')">
+                E
+                <audio src="./clip/Audio-3.mp4" class="clip" id="E">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-3" onclick="play('A')">
+                A
+                <audio src="./clip/Audio-4.mp4" class="clip" id="A">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-4" onclick="play('S')">
+                S
+                <audio src="./clip/Audio-5.mp4" class="clip" id="S">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-5" onclick="play('D')">
+                D
+                <audio src="./clip/Audio-6.mp4" class="clip" id="D">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-6" onclick="play('Z')">
+                Z
+                <audio src="./clip/Audio-7.mp4" class="clip" id="Z">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-7" onclick="play('X')">
+                X
+                <audio src="./clip/Audio-8.mp4" class="clip" id="X">
+            </button>
+            <button type="button" class="drum-pad  btn btn-primary btn-block" id="drum-8" onclick="play('C')">
+                C
+                <audio src="./clip/Audio-9.mp4" class="clip" id="C">
+            </button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        ,<script src="esso.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
